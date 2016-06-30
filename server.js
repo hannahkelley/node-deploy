@@ -10,6 +10,6 @@ app.use(bodyParser.json());
 require('./server/config/mongoose.js');
 require('./server/config/routes.js')(app);
 
-app.listen(6789, function(){
-  console.log("listening on 6789");
+app.listen(8000, function(){
+  console.log("listening");
 })
